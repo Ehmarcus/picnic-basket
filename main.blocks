@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="u)6:gP~-VtKgArx*K.`h">Player</variable><variable type="KIND_SpriteKind" id="(JmxG57c3Ige!%_3X2.+">Projectile</variable><variable type="KIND_SpriteKind" id="V/PR5)(%m9|U7c9y,8~3">Food</variable><variable type="KIND_SpriteKind" id="UOOvwENPEOe?1N`t|vOS">Enemy</variable><variable id="$F5E#P/-W_iC0jv8FT,+">picnicFood</variable><variable id="Lf5*2ojKSVNvz=V)UxXx">mySprite</variable></variables><block type="pxt-on-start" id="851E?=6)?YI+oLJLLkV^" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="AtWx10C}kbF4Mw(yIswv"><value name="color"><shadow type="colorindexpicker" id="*7rGd:4TV:f2k1NfXup-"><field name="index">1</field></shadow></value><next><block type="variables_set" id="IlJ,F-_CIfGs=PtJP#W%"><field name="VAR" id="$F5E#P/-W_iC0jv8FT,+">picnicFood</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="5/IfN?~!.JT}Fz-f0?(1"><value name="img"><shadow type="screen_image_picker" id="AJ]l?s5nS05ZT9e_=~D^"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"AJ]l?s5nS05ZT9e_=~D^"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="wEZ3|9fC1{6U2F=Dz?e;"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetimage" id="g[=].]?bt*8Yrn)f??cf"><value name="sprite"><block type="variables_get" id="b|WI.#[QPivf9g$6[RZg"><field name="VAR" id="$F5E#P/-W_iC0jv8FT,+">picnicFood</field></block></value><value name="img"><shadow type="screen_image_picker" id="RD;zx.l0OrBvY_vh}wXd"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"RD;zx.l0OrBvY_vh}wXd"}}</data></shadow></value></block></next></block></next></block></statement></block></xml>
